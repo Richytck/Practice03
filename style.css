@@ -1,0 +1,116 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Navigation */
+
+.nav {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 10em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  position: relative;
+}
+
+.logo:hover .alien-image {
+  transform: scale(1.2);
+}
+
+.alien-image {
+  height: 8em;
+  margin-left: 20em;
+  transition: transform 0.3s ease;
+}
+
+/* Animation */
+
+.navigation > a {
+  color: darkslategray;
+  transition: color 0.3s ease;
+}
+
+.navigation > a:hover {
+  color: #64cc4a;
+}
+
+/* Sign Up Animation */
+
+.button01 {
+  background-color: #64cc4a;
+  transition: background-color 0.3s ease;
+}
+
+.button01:hover {
+  background-color: red;
+}
+
+/* Sign Up Animation 02 */
+
+.button02:hover {
+  background-position: -100% 0;
+}
+
+.navigation a {
+  font-size: 3rem;
+  text-decoration: none;
+  margin-left: 1em;
+  color: darkslategray;
+}
+.button01 {
+  margin-right: 2em;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5%;
+  font-size: 2rem;
+  background-color: #64cc4a;
+  color: white;
+}
+
+/* Main-box */
+
+.main {
+  width: 100%;
+  height: 82.5em;
+  padding-left: 20em;
+  padding-top: 20em;
+}
+.h1a,
+.h1b {
+  font-size: 5rem;
+  margin-bottom: 0.5em;
+}
+
+.h1a {
+  color: #64cc4a;
+}
+
+.h1b {
+  color: darkslategray;
+}
+
+.h2a {
+  font-size: 3rem;
+  color: darkslategray;
+}
+
+.button02 {
+  margin-top: 2em;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5%;
+  font-size: 2rem;
+  background-color: rgb(224, 136, 136);
+  color: white;
+
+  background-image: linear-gradient(#64cc4a, #64cc4a);
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  transition: background-position 0.3s ease;
+}
